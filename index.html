@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="leftside">
+                <div class="interText">
+                    <h1>Seja <br> bem-vindo(a)!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem nemo. Molestiae vitae quo aut, nam, perferendis, modi laudantium autem consequatur vel quas sint. Eligendi debitis iure consectetur at qui.</p>
+                </div>
+                <small>2023 @Vegsivir</small>
+            </div>
+            <div id="rightside">
+                <form action="cadastro.php" method="post" id="form">
+                    <h2>Faça já seu Login</h2>
+                    <label>
+                        <h3>Nome:</h3>
+                        <input type="text" id="name" placeholder="Seu nome deve ter no mínino de 2 caracteres" data-rules="requerid|min=2">
+                    </label>
+                    <label>
+                        <h3>E-mail:</h3>
+                        <input type="email" id="e-mail" placeholder="Digite seu E-mail" data-rules="requerid">
+                    </label>
+                    <label>
+                        <h3>Crie sua senha:</h3>
+                        <input type="password" id="password" placeholder="Sua senha deve ter no mínino 6 caracteres" data-rules="requerid|min=6">
+                    </label>
+                        <button id="button">Criar Conta</button>
+                </form>
+                <p>Já possui uma conta? Clique aqui para <a href="ahi">acessar sua conta</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="cafeina.js"></script>
+</body>
+</html>

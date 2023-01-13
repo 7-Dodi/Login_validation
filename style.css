@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+body{
+    background-color: #eee;
+}
+
+.container{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ddd;
+}
+
+#leftside{
+    background: linear-gradient(150deg, #31463d, #7cd3ac);
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#leftside h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#leftside p{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+#leftside small{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 95%;
+}
+
+#rightside{
+    flex: 1;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    margin-left: 5%;
+}
+#rightside h2{
+    font-size: 35px;
+    color: #7cd3ac;
+    text-align: center;
+}
+#rightside input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #7cd3ac;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#rightside button{
+    width: 150px;
+    padding: 8px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #7cd3ac;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: 0;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#rightside a{
+    text-decoration: none;
+    text-shadow: 2px 2px 20px #488b6d;
+}
+
+#rightside .erro{
+    background-color: red;
+    color: #fff;
+    width: 88%;
+    margin-left: 2px;
+    border-radius: 5px;
+}
